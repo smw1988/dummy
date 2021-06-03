@@ -10,9 +10,13 @@ public class PermutationTest {
         // PermutationGenerator pg1 = new RecursivePermutationGenerator();
         // testPermutationGenerator(pg1, array);
 
-        System.out.println("test pg2");
-        PermutationGenerator pg2 = new RecursivePermutationGenerator();
-        testPermutationGenerator(pg2, array);
+        // System.out.println("test pg2");
+        // PermutationGenerator pg2 = new RecursivePermutationGenerator();
+        // testPermutationGenerator(pg2, array);
+
+        System.out.println("test pg3");
+        PermutationGenerator pg3 = new LexicographicPermutationGenerator();
+        testPermutationGenerator(pg3, array);
 
     }
 

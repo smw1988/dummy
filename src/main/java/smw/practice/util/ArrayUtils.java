@@ -8,4 +8,10 @@ public class ArrayUtils {
         array[j] = t;
     }
 
+    public static void reverse(int[] array, int start) {
+        for (int end = array.length - 1; start < end; ++start, --end) {
+            swap(array, start, end);
+        }
+    }
+
 }
